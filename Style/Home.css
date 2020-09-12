@@ -83,3 +83,86 @@ main > section > div > p {
 span {
     opacity: 60%;
 }
+@media (min-width: 320px) and (max-width: 857px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+  }
+  ::selection {
+    background-color: rgb(231, 234, 235);
+    color: #000;
+    font-weight: bolder;
+  }
+  body {
+    background-color: #000;
+  }
+  h2 {
+      margin-bottom: 18px;
+  }
+  p {
+      opacity: 60%;
+      text-justify: newspaper;
+  }
+  a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+  }
+  li {
+    margin-top: 12px;
+    list-style: none;
+  }
+  a:hover {
+    color: rgb(104, 197, 228);
+  }
+  header,
+  main,
+  footer {
+    padding: 1.6% 4%;
+  }
+  
+  header > h1 {
+    font-size: 36px;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+  }
+  header > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header > ul > li > a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 800;
+  }
+  header > ul > li > a:hover {
+    color: rgb(104, 197, 228);
+  }
+  
+  header > ul > li > a:active {
+    color: rgb(116, 104, 228);
+  }
+  
+  main > section > div > p {
+    opacity: 60%;
+    text-justify: newspaper;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .flex > div {
+    width: 100%;
+    margin: 1.5%;
+  }
+  span {
+      opacity: 60%;
+  }
+}
