@@ -168,11 +168,13 @@ footer {
   }
 
   header > h1 {
+    margin-left: 4px;
     font-size: 36px;
     padding-bottom: 2%;
     text-transform: uppercase;
   }
   header > ul {
+    margin-left: 4px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -206,6 +208,9 @@ footer {
   }
   span {
     opacity: 60%;
+  }
+  footer {
+    margin-left: 4px;
   }
   .header {
     position: fixed;
