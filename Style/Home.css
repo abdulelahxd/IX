@@ -21,12 +21,13 @@
   box-sizing: border-box;
   color: #fff;
   font-family: "Jost", sans-serif;
+  user-select: none;W
 }
-::selection {
+/* ::selection {
   background-color: rgb(231, 234, 235);
   color: #000;
   font-weight: bolder;
-}
+} */
 body {
   background-color: #000;
 }
